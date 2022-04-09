@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+}
+
+body {
+    border-top: 10px solid rgb(158, 143, 174);
+    border-bottom: 10px solid rgb(158, 143, 174);
+    transition: 150s all ease;
+}
+
+body>div:active {
+    transition-duration: 4s;
+    transform:  rotate(96000deg) scale3d(5, 0.4, 0.5);
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 195px;
+    flex-wrap: wrap;
+}
+
+.header-cont1 {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 39px;
+    color: rgb(158, 143, 174);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-cont2 {
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.header-cont2>a {
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(95, 95, 95);
+    font-family:'Segoe UI', sans-serif;
+    flex-shrink: 0;
+}
+
+.header-cont2>a>img {
+    margin-right: 10px;
+}
+
+.second {
+    min-height: 487px;
+    background-image: url(img/Gallery.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ultrabig {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 117px;
+    color: white;
+    text-shadow: -5px 5px 15px black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 31px;
+    color: white;
+    font-weight: 300;
+}
+
+.subst {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+}
+
+.round {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(#80FFDB 0% 60%, white 60% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease;
+}
+
+.sub-round {
+    width: 275px;
+    height: 275px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 10s all ease;
+}
+
+.sub-round:hover {
+    transition-duration: 1s;
+    transform:  rotate(45deg) scale3d(5, 0.4, 0.5);
+}
+
+.sub-round>p {
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
